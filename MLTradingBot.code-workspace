@@ -1,0 +1,43 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"jira-plugin.workingProject": "",
+		"sqltools.connections": [
+			{
+				"authenticator": "SNOWFLAKE",
+				"ocspOptions": {
+					"ocspFailOpen": true
+				},
+				"snowflakeOptions": {
+					"clientSessionKeepAlive": true,
+					"clientSessionKeepAliveHeartbeatFrequency": 3600
+				},
+				"previewLimit": 50,
+				"driver": "Snowflake",
+				"name": "jb70308.us-central1.gcp",
+				"account": "LF89956",
+				"username": "winstonwilliamsiii",
+				"password": "Cartagena57!@",
+				"database": "SNOWFLAKE_SAMPLE_DATA",
+				"warehouse": "MK_Warehouse"
+			},
+			{
+				"mysqlOptions": {
+					"authProtocol": "default",
+					"enableSsl": "Disabled"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 3306,
+				"driver": "MySQL",
+				"username": "root",
+				"name": "MoorKingdom",
+				"database": "foodhunter"
+			}
+		]
+	}
+}
